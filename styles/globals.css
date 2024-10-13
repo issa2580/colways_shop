@@ -2,23 +2,28 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
 :root {
   --bg1: #292d32;
-  --bg2: #eda415;
+  --bg-secondary: #eda415;
   --bg3: #87bcd9;
   --bg4: #e2f4ff;
   --bg5: #f4f4f4;
   --bg-primary: #ffffff;
+  --bg-nav: #003f62;
 
   --color1: #1b5a7d;
   --color2: #265f7f;
   --color3: #4a4a4a;
   --color4: #2e8fc5;
+  --color5: #292d32;
+  --primary: #ffffff;
 }
 
 body {
   margin: 0;
   padding: 0;
-  color: var(--color1);
   background: var(--bg-primary);
+  font-family: Inter, sans-serif;
 }
