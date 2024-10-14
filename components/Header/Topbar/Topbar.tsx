@@ -1,3 +1,4 @@
+import Group from "@/assets/icons/group.png";
 import Location from "@/assets/icons/location.png";
 import { AppBar, Box } from "@mui/material";
 import Image from "next/image";
@@ -62,7 +63,7 @@ const Topbar = () => {
               gap: "15px",
             }}
           >
-            <Image src={Location} alt="location"></Image>
+            <Image src={Group} alt="location"></Image>
             <p
               style={{
                 fontSize: "14px",
